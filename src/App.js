@@ -31,20 +31,25 @@ class App extends Component {
     const { isAuth } = this.props;
 
     return (
+      // <Fragment>
+      //   <Layout>
+      //     <Switch>
+      //       {!isAuth && <Route path="/auth" component={asyncAuth} />}
+      //       {isAuth && <Route path="/orders" component={asyncOrders} />}
+      //       {isAuth && <Route path="/logout" component={Logout} />}
+      //       <Route path="/cart" component={Cart} />
+      //       <Route path="/contact" component={Contact} />
+      //       <Route path="/details/:id" component={Details} />
+      //       <Route path="/productlist/:type" component={ProductList} />
+      //       <Route path="/wishlist" component={Wishlist} />
+      //       <Route path="/" exact component={HomePage} />
+      //       <Redirect to="/" />
+      //     </Switch>
+      //   </Layout>
+      // </Fragment>
       <Fragment>
         <Layout>
-          <Switch>
-            {!isAuth && <Route path="/auth" component={asyncAuth} />}
-            {isAuth && <Route path="/orders" component={asyncOrders} />}
-            {isAuth && <Route path="/logout" component={Logout} />}
-            <Route path="/cart" component={Cart} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/details/:id" component={Details} />
-            <Route path="/productlist/:type" component={ProductList} />
-            <Route path="/wishlist" component={Wishlist} />
-            <Route path="/" exact component={HomePage} />
-            <Redirect to="/" />
-          </Switch>
+        <Route path="/" exact component={HomePage} />
         </Layout>
       </Fragment>
     );
@@ -64,3 +69,17 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
+
+
+
+
+// function App() {
+//   return (
+//     <div>
+//       Hime
+
+//     </div>
+//   )
+// }
+
+//export default App
