@@ -49,7 +49,9 @@ class App extends Component {
       // </Fragment>
       <Fragment>
         <Layout>
+          <Switch>
         <Route path="/" exact component={HomePage} />
+          </Switch>
         </Layout>
       </Fragment>
     );
