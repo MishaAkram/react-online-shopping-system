@@ -67,7 +67,8 @@ HomePage.propTypes = {
 
 const mapStateToProps = state => {
   return {
-    purchased: state.order.purchased
+    purchased: true
+    //state.order.purchased
   };
 };
 
@@ -78,16 +79,10 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-//export default connect(mapStateToProps, mapDispatchToProps)(HomePage);
+export default connect(mapStateToProps, mapDispatchToProps)(HomePage);
 
 
 
-// function HomePage() {
-//   return (
-//     <div>
-//       HomePage
-//     </div>
-//   )
-// }
 
-export default HomePage
+
+//export default HomePage
