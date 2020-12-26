@@ -67,7 +67,7 @@ HomePage.propTypes = {
 
 const mapStateToProps = state => {
   return {
-    purchased: true
+    purchased: false
     //state.order.purchased
   };
 };
