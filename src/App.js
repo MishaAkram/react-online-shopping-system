@@ -73,15 +73,3 @@ const mapDispatchToProps = dispatch => {
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
 
 
-
-
-// function App() {
-//   return (
-//     <div>
-//       Hime
-
-//     </div>
-//   )
-// }
-
-//export default App
