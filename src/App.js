@@ -51,6 +51,7 @@ class App extends Component {
         <Layout>
           <Switch>
         <Route path="/" exact component={HomePage} />
+        <Route path="/cart" component={Cart} />
           </Switch>
         </Layout>
       </Fragment>
