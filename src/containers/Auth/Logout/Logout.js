@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { logout } from '../../../store/actions';
+import { connect } from 'react-redux';
+import { Redirect } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-function Logout() {
-    return (
-        <div>
-            logout
-        </div>
-    )
-}
+class Logout extends Component {
+  componentDidMount() {
+    this.props.logout();
+  };
 
-export default Logout;
+  render() {
+    return <Redirect to="/" />;
+  }
+};
+
+Logout.propTypes = {
+  logout: PropTypes.func.isRequired
+};
+
+export default connect(null, { logout })(Logout);

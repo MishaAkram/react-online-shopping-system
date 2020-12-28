@@ -2,7 +2,7 @@
 
 .home-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 2500px;
 
   .showcase {
     padding: 0 .5em;
@@ -23,7 +23,8 @@
 
   .sale {
     height: 350px;
-    background-size: cover;
+    width: 1400px;
+    background-size:auto;
     background-position: center;
     color: #fff;
     padding: 1em;
