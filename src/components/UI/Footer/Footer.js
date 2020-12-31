@@ -12,7 +12,7 @@ const footer = () => (
           <h3 className="title">Questions</h3>
           <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus massa ac pretium dapibus. Proin consectetur eros id suscipit tristique. </p>
         </div>
-        FakeForm 
+        <FakeForm/> 
       </div>
     </div>
     <SocialMedia />
@@ -48,7 +48,7 @@ const footer = () => (
         </div>
       </div>
     </div>
-    <p className="advertising">Made by Bart.dsn</p>
+    <p className="advertising">Made by Misha Akram</p>
   </footer>
 );
 

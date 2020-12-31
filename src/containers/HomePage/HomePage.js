@@ -3,10 +3,12 @@ import './HomePage.scss';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions';
 import PropTypes from 'prop-types';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 import Modal from '../../components/UI/Modal/Modal';
 import Button from '../../components/UI/Button/Button';
 import ScrollToTopOnMount from '../../shared/ScrollToTopOnMount';
+import ProductList from '../ProductList/ProductList';
 
 import saleBg1 from '../../assets/home_page/Sale.jpg';
 import saleBg2 from '../../assets/home_page/Sale2.jpg';
@@ -62,7 +64,10 @@ class HomePage extends Component {
                 <h3 className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate!</h3>
               </div>
             ))}
+            pnnkkvgvjbhhhhhhhhhhhbbb
           </div>
+            <ProductList/>
+            <Route path="/productlist/:type" component={ProductList} />
         </div>
       </>
     )
