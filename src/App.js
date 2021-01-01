@@ -48,6 +48,8 @@ class App extends Component {
       <Fragment>
         <Layout>
           <Switch>
+            bb
+            
         {!isAuth && <Route path="/auth" component={asyncAuth} />}
         <Route path="/" exact component={HomePage} />
         <Route path="/productlist/:type" component={ProductList} />
