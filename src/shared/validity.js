@@ -18,10 +18,8 @@ export const checkValidity = (value, rules) => {
       isValid = pattern.test(value) && isValid
     }
   
-    if (rules.isNumeric) {
       const pattern = /^\d+$/;
       isValid = pattern.test(value) && isValid
+      return isValid;
     }
   
-    return isValid;
-  };

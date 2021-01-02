@@ -1,0 +1,197 @@
+[33mcommit cde8a022662227a4d77467efaaa2f86dead742c0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: SoniyaShafi <aa9391438@gmail.com>
+Date:   Fri Jan 1 16:01:16 2021 +0500
+
+    ERROR
+
+[33mcommit 33f86015156d896b721454baadc81983f8cf1961[m
+Author: SoniyaShafi <aa9391438@gmail.com>
+Date:   Thu Dec 31 13:09:41 2020 +0500
+
+    Details.scss added
+
+[33mcommit 8ed3bb534462aa59505db2fa76323118491ab7cc[m
+Author: SoniyaShafi <aa9391438@gmail.com>
+Date:   Thu Dec 31 13:08:36 2020 +0500
+
+    detailItem.scss added
+
+[33mcommit 000ca490bcfbcbf9138f36332a231ac2f988b4c2[m
+Author: SoniyaShafi <aa9391438@gmail.com>
+Date:   Thu Dec 31 13:06:24 2020 +0500
+
+    details of item added in DetailItem.js
+
+[33mcommit f621e0505c683f00df127834ee25b759cc3a8612[m
+Author: SoniyaShafi <aa9391438@gmail.com>
+Date:   Thu Dec 31 13:03:40 2020 +0500
+
+    Details Added
+
+[33mcommit cd972c2bd34223afd576bb600255c30128147307[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Tue Dec 29 00:46:40 2020 +0500
+
+    Homepage updated
+
+[33mcommit 5b14f068d7daf8b1514b26d49338849e1205d8b3[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 23:53:16 2020 +0500
+
+    productList added
+
+[33mcommit 73d187ecf2bb8edf4e4514f03495c1020884ccba[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 00:21:11 2020 +0500
+
+    oredersummary added
+
+[33mcommit fe5aa191bebea7483d8cd9ee3e742def4aad4acb[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 00:18:23 2020 +0500
+
+    react-transition-group module added
+
+[33mcommit d49ca4d062d6a00c91881deff4402945a9b62bda[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 00:12:14 2020 +0500
+
+    footer added in layout
+
+[33mcommit 8804f3a2ca4e6ab76360a23864b6f15e98b5b581[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 00:11:13 2020 +0500
+
+    SideDrawer added in layout
+
+[33mcommit 94430f12f8c71190849bd2d799432a6f74d417d2[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Mon Dec 28 00:05:37 2020 +0500
+
+    HomePage Interface ready
+
+[33mcommit ce8b9a5e1e647dccc7c1451e31cf863d08c385a1[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 20:14:29 2020 +0500
+
+    button scss added
+
+[33mcommit 7bdcdaca8f6ba4303cfe34368ccdc8b9d0715a96[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 20:11:35 2020 +0500
+
+    modal.scss implemented
+
+[33mcommit bd089b9a74c405795448d466e4d6b6fd6b478e64[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 20:04:08 2020 +0500
+
+    Homepage advertisement feature added
+
+[33mcommit 0c460b64c6fb210e4fa9656b8e0e33e03360988b[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 19:48:33 2020 +0500
+
+    shared scroll to top down added
+
+[33mcommit 201935700e65861b76208f22c3faa43968b4d900[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 19:46:34 2020 +0500
+
+    UI Button added
+
+[33mcommit 8b0da3a19a4e6de873a275823ecde078be4bf8d4[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 19:45:12 2020 +0500
+
+    UI modal added
+
+[33mcommit e0da8d0329c7360b724a49d031a0c82ac5e0d460[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 26 19:26:31 2020 +0500
+
+    Homepage routed in app.js under layout
+
+[33mcommit 461d1cb8fa312929a465b8b63ca10d5487fd17d9[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 20:40:10 2020 +0500
+
+    interfaceReducer added in store/reducer
+
+[33mcommit 6b4342f48d10f472f4be68b0981cd7b0a945ac4d[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 20:38:20 2020 +0500
+
+    orderReducer productReducer added
+
+[33mcommit 1244e2a5405c1b1f6207768f34df18ed7e369696[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 20:04:30 2020 +0500
+
+    redux-thunk module added
+
+[33mcommit 2ffebdf5c8fc4eb656b7870f77a362a7c24053de[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 19:52:14 2020 +0500
+
+    axios added using npm
+
+[33mcommit 6bb5af984a431d4a613017dcfa2015550dd53206[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 19:51:09 2020 +0500
+
+    react-redux redux node-sass added
+
+[33mcommit c4f7100729cf0d00b8defdc513a294799849cc68[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 25 19:40:42 2020 +0500
+
+    react-redux redux node-sass added
+
+[33mcommit a19545a118c13f9e1ff5b0dc5d71d53177421831[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Thu Dec 24 22:45:54 2020 +0500
+
+    .js files created
+
+[33mcommit ece44c9964adf71b8fc549335237385ab79a6842[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sun Dec 20 20:14:56 2020 +0500
+
+    COntainer Files And Foldrs Added
+
+[33mcommit 9e03240974015482158a7fdcd47da665e9ed77b3[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sun Dec 20 19:38:05 2020 +0500
+
+    UI folders added
+
+[33mcommit 1bdc0a2ff3f01f8b1363c9a89f800e3cab3a36fa[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 19 20:16:56 2020 +0500
+
+    assets added
+
+[33mcommit a600a021e02742f76115fd20c8f6400b9dfa817f[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 19 19:37:57 2020 +0500
+
+    Navigation and UI Components added
+
+[33mcommit 704a785d962e548a1df20a3f491a6bc0b81ecb15[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Sat Dec 19 19:29:20 2020 +0500
+
+    folders added
+
+[33mcommit e4a3814024a569281c0a0db32d36e1e1358534da[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 18 20:37:04 2020 +0500
+
+    intialized new repository
+
+[33mcommit a3eca013ad5efe9197d999dbe0e81eb069a4c292[m
+Author: MishaAkram <mishaakrambaig@gmail.com>
+Date:   Fri Dec 18 20:33:43 2020 +0500
+
+    Initialize project using Create React App

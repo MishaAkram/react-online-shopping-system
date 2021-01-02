@@ -41,7 +41,6 @@ class App extends Component {
       //       <Route path="/" exact component={HomePage} />
       //       <Redirect to="/" />
       //     </Switch>
-      //<Route path="/cart" component={Cart} />
       //   </Layout>
       // </Fragment>
       
@@ -55,6 +54,7 @@ class App extends Component {
         <Route path="/productlist/:type" component={ProductList} />
         <Route path="/details/:id" component={Details} />
         {isAuth && <Route path="/logout" component={Logout} />}
+        <Route path="/cart" component={Cart} />
           </Switch>
         </Layout>
       </Fragment>
