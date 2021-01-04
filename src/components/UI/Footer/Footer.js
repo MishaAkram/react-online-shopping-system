@@ -9,8 +9,8 @@ const footer = () => (
     <div className="questions">
       <div className="questions-wrapper">
         <div className="questions-text">
-          <h3 className="title">Questions</h3>
-          <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus massa ac pretium dapibus. Proin consectetur eros id suscipit tristique. </p>
+          <h3 className="title">New Customers</h3>
+          <p className="subtitle">By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
         </div>
         <FakeForm/> 
       </div>
@@ -21,7 +21,7 @@ const footer = () => (
         <div className="buy-from-us">
           <h4>Buy from Us</h4>
           <p>Women</p>
-          <p>Men</p>
+          <p>Accessories</p>
         </div>
         <div className="online-shop">
           <h4>Online Shop</h4>
