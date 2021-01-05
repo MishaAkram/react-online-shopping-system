@@ -1,5 +1,6 @@
 // change to json file
 import snip from '../assets/home_page/snip2.PNG';
+import pic from '../assets/home_page/Sale.jpg'
 export const productList = [
     // WOMEN COATS
     {
@@ -34,7 +35,7 @@ export const productList = [
     },
     {
       id: 103,
-      img: '../img/coat-female.png',
+      img: pic,
       title: 'Womans coat three',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
