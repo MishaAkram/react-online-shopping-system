@@ -1,11 +1,19 @@
 // change to json file
-import snip from '../assets/home_page/snip2.PNG';
-import pic from '../assets/home_page/Sale.jpg'
+import snip1 from '../assets/cart_images/1.jpg';
+import snip2 from '../assets/cart_images/2.jpg';
+import snip3 from '../assets/cart_images/3.jpg';
+import snip4 from '../assets/cart_images/4.jpg';
+import snip5 from '../assets/cart_images/5.jpg';
+import snip6 from '../assets/cart_images/6.jpg';
+import snip7 from '../assets/cart_images/7.jpg';
+import snip8 from '../assets/cart_images/8.jpg';
+import snip9 from '../assets/cart_images/9.jpg';
+//import pic from '../assets/home_page/Sale.jpg'
 export const productList = [
     // WOMEN COATS
     {
       id: 101,
-      img: snip,
+      img: snip1,
       title: 'Womans coat one',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -20,7 +28,7 @@ export const productList = [
     },
     {
       id: 102,
-      img: snip,
+      img: snip2,
       title: 'Womans coat two',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -35,7 +43,7 @@ export const productList = [
     },
     {
       id: 103,
-      img: pic,
+      img: snip3,
       title: 'Womans coat three',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -50,7 +58,8 @@ export const productList = [
     },
     {
       id: 104,
-      img: '../img/coat-female.png',
+      //img: '../img/coat-female.png',
+      img: snip4,
       title: 'Womans coat four',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -65,7 +74,8 @@ export const productList = [
     },
     {
       id: 105,
-      img: '../img/coat-female.png',
+      //img: '../img/coat-female.png',
+      img: snip5,
       title: 'Womans coat five',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -80,7 +90,8 @@ export const productList = [
     },
     {
       id: 106,
-      img: '../img/coat-female.png',
+      //img: '../img/coat-female.png',
+      img: snip6,
       title: 'Womans coat six',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -97,7 +108,8 @@ export const productList = [
     // WOMEN JACKETS
     {
       id: 111,
-      img: '../img/jacket-female.png',
+      //img: '../img/jacket-female.png',
+      img: snip7,
       title: 'Womans jacket one',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -112,7 +124,8 @@ export const productList = [
     },
     {
       id: 112,
-      img: '../img/jacket-female.png',
+      //img: '../img/jacket-female.png',
+      img: snip8,
       title: 'Womans jacket two',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
@@ -127,7 +140,8 @@ export const productList = [
     },
     {
       id: 113,
-      img: '../img/jacket-female.png',
+      //img: '../img/jacket-female.png',
+      img: snip9,
       title: 'Womans jacket three',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
