@@ -12,8 +12,8 @@ const navigationItems = ({ filterProducts, isAuth }) => (
       link="/productlist/female"
       exact>Women</NavigationItem>
     <NavigationItem
-      // clicked={() => filterProducts('male')}
-      // link="/productlist/male"
+       //clicked={() => filterProducts('male')}
+       //link="/productlist/male"
       clicked={() => filterProducts('accessories')}
       link="/productlist/accessories"
       exact>Accessories</NavigationItem>

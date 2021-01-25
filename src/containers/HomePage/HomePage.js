@@ -72,7 +72,7 @@ class HomePage extends Component {
             {/* pnnkkvgvjbhhhhhhhhhhhbbb */}
           </div>
             <ProductList/>
-            <Route path="/productlist/:type" component={ProductList} />
+            <Route path="//:type" component={ProductList} />
         {/* </div> */}
       </>
     )
