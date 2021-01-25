@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+
 import './Cart.scss';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions';
@@ -12,19 +13,24 @@ import OrderSummary from './OrderSummary/OrderSummary';
 import ContactForm from './ContactForm/ContactForm';
 import ScrollToTopOnMount from '../../shared/ScrollToTopOnMount';
 
+
 class Cart extends Component {
+
+
+  };
   state = {
     orderSummaryAccepted: false
   };
-
+  
   componentDidMount() {
     this.props.calculateOrder();
+    this.props.createTodo();
   };
-
+  
   componentDidUpdate() {
     this.props.calculateOrder();
   };
-
+  
   acceptOrder = () => {
     if (this.props.isAuth) {
       this.setState({
@@ -34,10 +40,13 @@ class Cart extends Component {
       this.props.history.push('/auth');
     };
   };
-
+  
   render() {
+    
     const { cartItems, clearCart, isAuth, purchased } = this.props;
+    
 
+    
     let selected = <p className="main-info">You select <span className="bold">{cartItems.length}</span> products.</p>
     if (cartItems.length === 1) selected = <p className="main-info">You select <span className="bold">1</span> product.</p>;
 
