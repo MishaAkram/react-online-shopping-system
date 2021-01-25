@@ -7,6 +7,7 @@
     @include mediaMd {
       display: grid;
       grid-template-columns: 60% 40%;
+      //grid-gap: 1em;
       grid-gap: 1em;
     }
   }
@@ -65,7 +66,8 @@
 
     .size {
       display: block;
-      width: 25px;
+      // width: 25px;
+      width: 40px;
       height: 25px;
       margin-right: .5em;
       background: none;

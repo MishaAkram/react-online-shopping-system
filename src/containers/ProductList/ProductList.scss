@@ -28,7 +28,9 @@
   grid-template-columns: 1fr;
 
   @include mediaMd {
-    grid-template-columns: 17% 83%;
+    // grid-template-columns: 17% 83%;
+    grid-template-columns: 3% 106%;
+
   }
 }
 
@@ -40,7 +42,7 @@
 
   @include mediaMd {
     grid-column-gap: 1em;
-    grid-row-gap: 2em;
+    grid-row-gap: 3em;
   }
 
   @include mediaLg {
