@@ -48,7 +48,7 @@ const footer = () => (
         </div>
       </div>
     </div>
-    <p className="advertising">Made by Misha Akram</p>
+    <p className="advertising">Made by Misha Akram,   Iqra Irfan,   Soniya Shafi,    Mujtuba</p>
   </footer>
 );
 

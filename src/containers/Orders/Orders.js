@@ -30,7 +30,7 @@ class Orders extends Component {
         <ScrollToTopOnMount />
         <div className="orders-container">
           <h2 className="main-title">Your Orders</h2>
-          <p className="main-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula neque, at faucibus metus trum sedru.</p>
+          {/* <p className="main-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula neque, at faucibus metus trum sedru.</p> */}
           <ul className="order-list">
             {orders}
           </ul>

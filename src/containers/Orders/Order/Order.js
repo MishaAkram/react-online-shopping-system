@@ -14,7 +14,7 @@ const order = (props) => {
           </li>
         ))}
       </ul>
-      <p className="order-price">Total Price: {props.price}.00 $</p>
+      <p className="order-price">Total Price: Rs. {props.price}</p>
     </li>
   );
 };
