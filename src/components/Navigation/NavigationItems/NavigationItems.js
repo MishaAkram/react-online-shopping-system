@@ -11,12 +11,12 @@ const navigationItems = ({ filterProducts, isAuth }) => (
       clicked={() => filterProducts('female')}
       link="/productlist/female"
       exact>Women</NavigationItem>
-    <NavigationItem
+    {/* <NavigationItem
        //clicked={() => filterProducts('male')}
        //link="/productlist/male"
       clicked={() => filterProducts('accessories')}
       link="/productlist/accessories"
-      exact>Accessories</NavigationItem>
+      exact>Accessories</NavigationItem> */}
     <NavigationItem link="/contact" exact>Contact</NavigationItem>
     <NavigationItem link="/" exact>Home</NavigationItem>
     {isAuth ? <NavigationItem link="/orders" exact>Orders</NavigationItem> : null}

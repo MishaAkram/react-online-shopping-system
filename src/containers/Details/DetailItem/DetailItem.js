@@ -21,7 +21,7 @@ class DetailItem extends Component {
           <div className="detail-info">
             <h3 className="detail-subtitle">Description:</h3>
             <p className="detail-value">{description}</p>
-            <h3 className="detail-subtitle">Price: {price}.00 $</h3>
+            <h3 className="detail-subtitle">Price:Rs. {price}</h3>
             {this.props.children}
           </div>
         </div>

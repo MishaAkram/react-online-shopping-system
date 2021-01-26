@@ -12,18 +12,18 @@ class OrderSummary extends Component {
     return (
       <div className="order-summary">
         <h3 className="title">Order Summary</h3>
-        <p className="info delivery-info">Free delivery below three products.</p>
+        {/* <p className="info delivery-info">Free delivery below three products.</p> */}
         <div className="wrapper">
           <p className="subtitle">Total products price:</p>
-          <p className="value">{priceTotal}.00 $</p>
+          <p className="value">Rs.{priceTotal}</p>
         </div>
         <div className="wrapper">
           <p className="subtitle">Delivery:</p>
-          <p className="value">{delivery}.00 $</p>
+          <p className="value">Rs.{delivery}</p>
         </div>
         <div className="wrapper">
           <p className="subtitle">Order total:</p>
-          <p className="value">{orderTotal}.00 $</p>
+          <p className="value">Rs.{orderTotal}</p>
         </div>
         <Button clicked={acceptOrder} btnType="dark">{this.props.isAuth ? 'To Payment' : 'Sign Up to Order'}</Button>
       </div>
