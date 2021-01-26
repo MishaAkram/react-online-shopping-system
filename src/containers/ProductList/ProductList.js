@@ -49,7 +49,7 @@ class ProductList extends Component {
             <img src={img} alt="" />
             <h3 className="modal-title">Info:</h3>
             <p className="modal-subtitle">{subtitle}</p>
-            <h3 className="modal-title">Price: {price}.00 $</h3>
+            <h3 className="modal-title">Price: PKR {price}</h3>
             <h3 className="modal-title">Sizes: S, M, L, XL, XXL</h3>
             <div className="btn-wrapper">
               <Link to={`/details/${id}`}>
@@ -58,13 +58,13 @@ class ProductList extends Component {
             </div>
           </Modal>
           <div className="filter-panel">
-            Sort by:
-          <select onChange={this.handleChange} value={checkboxValue}>
+            {/* Sort by: */}
+          {/* <select onChange={this.handleChange} value={checkboxValue}>
               <option value="relevance">Relevance</option>
               <option value="price - low to high">Price - low to high</option>
               <option value="price - high to low">Price - high to low</option>
-            </select>
-            <p className="products-amount">Products amount: <span className="amount">{products.length}</span></p>
+            </select> */}
+            {/* <p className="products-amount">Products amount: <span className="amount">{products.length}</span></p> */}
           </div>
           <div className="product-list-wrapper">
             <div className="navigation">
