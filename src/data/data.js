@@ -8,6 +8,18 @@ import snip6 from '../assets/cart_images/6.jpg';
 import snip7 from '../assets/cart_images/7.jpg';
 import snip8 from '../assets/cart_images/8.jpg';
 import snip9 from '../assets/cart_images/9.jpg';
+import snip10 from '../assets/cart_images/10.jpg';
+import snip11 from '../assets/cart_images/11.jpg';
+import snip12 from '../assets/cart_images/12.jpg';
+import snip13 from '../assets/cart_images/13.jpg';
+import snip14 from '../assets/cart_images/14.jpg';
+import snip15 from '../assets/cart_images/15.jpg';
+import snip16 from '../assets/cart_images/16.jpg';
+import snip17 from '../assets/cart_images/17.jpg';
+import snip18 from '../assets/cart_images/18.jpg';
+// import snip19 from '../assets/cart_images/19.jpg';
+// import snip20 from '../assets/cart_images/20.jpg';
+// import snip21 from '../assets/cart_images/21.jpg';
 //import pic from '../assets/home_page/Sale.jpg'
 export const productList = [
     // WOMEN COATS
@@ -404,11 +416,9 @@ export const productList = [
       gender: 'female'
     },
     {
-      id: 144,
-      img: '../img/shoes-female.png',
-      title: 'Womans shoes four',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip10,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 500,
       inCart: false,
       inWishlist: false,
@@ -420,10 +430,9 @@ export const productList = [
     },
     {
       id: 145,
-      img: '../img/shoes-female.png',
-      title: 'Womans shoes five',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip11,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 180,
       inCart: false,
       inWishlist: false,
@@ -435,10 +444,9 @@ export const productList = [
     },
     {
       id: 146,
-      img: '../img/shoes-female.png',
-      title: 'Womans shoes six',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip12,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 220,
       inCart: false,
       inWishlist: false,
@@ -452,10 +460,9 @@ export const productList = [
     // WOMEN SUITS
     {
       id: 151,
-      img: '../img/suit-female.png',
-      title: 'Womans suit one',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip13,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 500,
       inCart: false,
       inWishlist: false,
@@ -467,10 +474,9 @@ export const productList = [
     },
     {
       id: 152,
-      img: '../img/suit-female.png',
-      title: 'Womans suit two',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip14,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 590,
       inCart: false,
       inWishlist: false,
@@ -482,10 +488,9 @@ export const productList = [
     },
     {
       id: 153,
-      img: '../img/suit-female.png',
-      title: 'Womans suit three',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip15,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 580,
       inCart: false,
       inWishlist: false,
@@ -497,10 +502,9 @@ export const productList = [
     },
     {
       id: 154,
-      img: '../img/suit-female.png',
-      title: 'Womans suit four',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip13,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 560,
       inCart: false,
       inWishlist: false,
@@ -512,10 +516,9 @@ export const productList = [
     },
     {
       id: 155,
-      img: '../img/suit-female.png',
-      title: 'Womans suit five',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip14,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 530,
       inCart: false,
       inWishlist: false,
@@ -527,10 +530,9 @@ export const productList = [
     },
     {
       id: 156,
-      img: '../img/suit-female.png',
-      title: 'Womans suit six',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip15,
+      title: 'Shoes',
+      description: 'These jeweled sling back sandals are sleek, chic and ready to walk through the winter season.',
       price: 500,
       inCart: false,
       inWishlist: false,
@@ -544,10 +546,9 @@ export const productList = [
     // WOMEN T-SHIRTS
     {
       id: 161,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt one',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip16,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 120,
       inCart: false,
       inWishlist: false,
@@ -559,10 +560,9 @@ export const productList = [
     },
     {
       id: 162,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt two',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip17,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 80,
       inCart: false,
       inWishlist: false,
@@ -574,10 +574,9 @@ export const productList = [
     },
     {
       id: 163,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt three',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip18,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 110,
       inCart: false,
       inWishlist: false,
@@ -589,10 +588,9 @@ export const productList = [
     },
     {
       id: 164,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt four',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip16,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 200,
       inCart: false,
       inWishlist: false,
@@ -604,10 +602,9 @@ export const productList = [
     },
     {
       id: 165,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt five',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip17,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 180,
       inCart: false,
       inWishlist: false,
@@ -619,10 +616,9 @@ export const productList = [
     },
     {
       id: 166,
-      img: '../img/t-shirt-female.png',
-      title: 'Womans t-shirt six',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quis deserunt. Aperiam minima facere dolorem saepe deleniti aspernatur amet molestiae doloremque, sed quam ullam cum veritatis corporis eius sequi magnam ipsum aliquid eum! Saepe dolorum debitis voluptate culpa veniam molestiae mollitia dignissimos velit reprehenderit voluptatibus numquam omnis aperiam, cum facere.',
+      img: snip18,
+      title: 'Perfume',
+      description: 'A classic tale of encapsulating scents, from fresh to woody, musky and floral notes.',
       price: 150,
       inCart: false,
       inWishlist: false,
