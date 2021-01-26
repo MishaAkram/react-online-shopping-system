@@ -64,8 +64,8 @@ class Cart extends Component {
                       <span className="size">{amount}</span>
                       <button onClick={() => handleProductAmount(id, 'increment')} className="size">+</button>
                     </div>
-                    <p className="value">Price: {price}.00 $</p>
-                    <p className="value">Total: {total}.00 $</p>
+                    <p className="value">Price: Rs. {price}</p>
+                    <p className="value">Total: Rs. {total}</p>
                     <Button clicked={() => remove(id)} btnType="small">Remove</Button>
                   </div>
                 </li>
